@@ -1,0 +1,33 @@
+.navbar {
+    background-color: rgb(175, 192, 67);
+}
+
+.navbar-brand {
+    font-weight:bold;
+}
+
+#a {
+    color: white;    
+    text-align: right;
+}
+
+.text {
+    font-weight: bold;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
