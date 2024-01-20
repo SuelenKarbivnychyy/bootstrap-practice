@@ -1,33 +1,44 @@
 .navbar {
     background-color: rgb(175, 192, 67);
+    color: white;
+    border-radius:  0px;
 }
 
-.navbar-brand {
-    font-weight:bold;
+.navbar-nav > li > a,
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
 }
 
-#a {
-    color: white;    
-    text-align: right;
+section{
+    margin-top: 50px;
 }
 
-.text {
-    font-weight: bold;
+
+#hero {
+    height: 400px;
+}
+  
+  #splash {
+    margin-bottom: 25px;
+    font-size: 18px;
     text-align: center;
 }
-
-.description {
+  
+  /* Features Row */
+  
+  .feature {
     text-align: center;
-}
+} 
+
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
-  td, th {
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
+}
